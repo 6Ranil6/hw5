@@ -1,0 +1,4 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 7064.33it/s]
+[all_layers] устройство mps, обучаемых 5,046,272 из 601,096,192 (0.840%); шагов 5; base val 1.935234
+  шаг 5/5: train 1.4509, val 1.776816
+[all_layers] 5 шагов за 60 с; пик памяти 5420 МБ; адаптер 30.21 МБ -> submission/smoke/adapter_all_layers

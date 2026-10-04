@@ -1,0 +1,4 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:02<10:20,  2.00s/it]Loading weights:  70%|███████   | 219/311 [00:02<00:00, 144.97it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 118.78it/s]
+{'id': 'story_v2_046_04', 'length': 724, 'loss': 2.034170389175415, 'grad_norm': 3.395869255065918, 'memory_mib': 5300.65625}
+{'id': 'story_v2_011_04', 'length': 710, 'loss': 2.172105550765991, 'grad_norm': 2.413217544555664, 'memory_mib': 5300.6875}
+{'id': 'story_v2_006_04', 'length': 693, 'loss': 2.204676866531372, 'grad_norm': 2.2287118434906006, 'memory_mib': 5300.71875}

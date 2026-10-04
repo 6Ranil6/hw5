@@ -1,0 +1,9 @@
+{
+  "command": "make check",
+  "exit_code": 0,
+  "duration_seconds": 105.549,
+  "cast_sha256": "cead02ef936d6751507e78811c88c37045a44b19c4b24d92b8adbbce770a2b02",
+  "capture": "actual subprocess stdout/stderr; video renders the recorded transcript",
+  "video_rendered": true,
+  "video_sha256": "887ed01379a90b785b625f0b5e81706ebc4a3b9f416b196c34afb4ff7d285927"
+}

@@ -1,0 +1,117 @@
+'source_val.dvc' didn't change, skipping
+'source_train.dvc' didn't change, skipping
+Running stage 'train_all':
+> python -m src.train --variant all_layers
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 5712.21it/s]
+[all_layers] устройство mps, обучаемых 5,046,272 из 601,096,192 (0.840%); шагов 112; base val 1.814080
+  train шаг 1/112: loss 1.9507, grad_norm 2.4054
+  train шаг 2/112: loss 1.7603, grad_norm 2.1538
+  train шаг 3/112: loss 2.2230, grad_norm 2.1600
+  train шаг 4/112: loss 1.6555, grad_norm 1.9608
+  train шаг 5/112: loss 1.4651, grad_norm 1.3135
+  train шаг 6/112: loss 1.3340, grad_norm 1.2278
+  train шаг 7/112: loss 1.6918, grad_norm 1.2188
+  train шаг 8/112: loss 1.7240, grad_norm 1.1915
+  train шаг 9/112: loss 1.3200, grad_norm 1.1959
+  train шаг 10/112: loss 1.5232, grad_norm 1.1819
+  шаг 10/112: train 1.5232, val 1.518774
+  train шаг 11/112: loss 1.7674, grad_norm 1.2717
+  train шаг 12/112: loss 1.2628, grad_norm 0.8003
+  train шаг 13/112: loss 1.6496, grad_norm 1.0166
+  train шаг 14/112: loss 1.6175, grad_norm 1.2976
+  train шаг 15/112: loss 1.5351, grad_norm 1.0504
+  train шаг 16/112: loss 1.9231, grad_norm 1.0978
+  train шаг 17/112: loss 1.6681, grad_norm 1.0796
+  train шаг 18/112: loss 1.2320, grad_norm 1.0899
+  train шаг 19/112: loss 1.5647, grad_norm 1.1123
+  train шаг 20/112: loss 1.3246, grad_norm 1.4809
+  шаг 20/112: train 1.3246, val 1.382522
+  train шаг 21/112: loss 1.2758, grad_norm 1.0079
+  train шаг 22/112: loss 1.8349, grad_norm 1.2407
+  train шаг 23/112: loss 1.3074, grad_norm 1.1936
+  train шаг 24/112: loss 1.5401, grad_norm 1.2711
+  train шаг 25/112: loss 1.5084, grad_norm 1.3582
+  train шаг 26/112: loss 1.2465, grad_norm 1.0344
+  train шаг 27/112: loss 1.0349, grad_norm 1.1000
+  train шаг 28/112: loss 1.2515, grad_norm 1.1210
+  train шаг 29/112: loss 1.2583, grad_norm 1.1396
+  train шаг 30/112: loss 1.3787, grad_norm 1.1214
+  шаг 30/112: train 1.3787, val 1.314454
+  train шаг 31/112: loss 1.2662, grad_norm 1.1078
+  train шаг 32/112: loss 1.3209, grad_norm 1.0774
+  train шаг 33/112: loss 0.7997, grad_norm 0.8992
+  train шаг 34/112: loss 1.1603, grad_norm 1.0025
+  train шаг 35/112: loss 0.9123, grad_norm 1.0648
+  train шаг 36/112: loss 1.4792, grad_norm 1.3432
+  train шаг 37/112: loss 1.3451, grad_norm 1.1920
+  train шаг 38/112: loss 1.4967, grad_norm 1.3746
+  train шаг 39/112: loss 1.2696, grad_norm 1.1090
+  train шаг 40/112: loss 1.1705, grad_norm 1.1673
+  шаг 40/112: train 1.1705, val 1.272253
+  train шаг 41/112: loss 1.0579, grad_norm 1.0525
+  train шаг 42/112: loss 1.5116, grad_norm 1.6609
+  train шаг 43/112: loss 0.8133, grad_norm 0.9599
+  train шаг 44/112: loss 1.2570, grad_norm 1.2193
+  train шаг 45/112: loss 1.2202, grad_norm 1.2020
+  train шаг 46/112: loss 1.3611, grad_norm 1.4967
+  train шаг 47/112: loss 1.3211, grad_norm 1.5873
+  train шаг 48/112: loss 1.4454, grad_norm 1.3606
+  train шаг 49/112: loss 1.5368, grad_norm 1.5972
+  train шаг 50/112: loss 1.2268, grad_norm 1.4621
+  шаг 50/112: train 1.2268, val 1.247571
+  train шаг 51/112: loss 0.9548, grad_norm 1.3149
+  train шаг 52/112: loss 1.2709, grad_norm 1.1900
+  train шаг 53/112: loss 1.0516, grad_norm 1.3416
+  train шаг 54/112: loss 1.0309, grad_norm 1.3588
+  train шаг 55/112: loss 1.1364, grad_norm 1.3777
+  train шаг 56/112: loss 1.5282, grad_norm 1.4287
+  train шаг 57/112: loss 0.8026, grad_norm 1.2044
+  train шаг 58/112: loss 0.7930, grad_norm 0.9831
+  train шаг 59/112: loss 1.0847, grad_norm 1.3385
+  train шаг 60/112: loss 1.3489, grad_norm 1.3660
+  шаг 60/112: train 1.3489, val 1.221919
+  train шаг 61/112: loss 0.9998, grad_norm 1.1854
+  train шаг 62/112: loss 1.0439, grad_norm 1.3809
+  train шаг 63/112: loss 0.8296, grad_norm 1.1989
+  train шаг 64/112: loss 1.1415, grad_norm 1.3992
+  train шаг 65/112: loss 1.1957, grad_norm 1.4335
+  train шаг 66/112: loss 1.2430, grad_norm 1.6262
+  train шаг 67/112: loss 1.0960, grad_norm 1.2715
+  train шаг 68/112: loss 1.4880, grad_norm 1.6571
+  train шаг 69/112: loss 0.8996, grad_norm 1.1493
+  train шаг 70/112: loss 0.8563, grad_norm 1.0775
+  шаг 70/112: train 0.8563, val 1.213126
+  train шаг 71/112: loss 0.9864, grad_norm 1.5255
+  train шаг 72/112: loss 0.8865, grad_norm 1.4293
+  train шаг 73/112: loss 0.7131, grad_norm 1.0981
+  train шаг 74/112: loss 1.3448, grad_norm 1.4391
+  train шаг 75/112: loss 1.2446, grad_norm 1.5303
+  train шаг 76/112: loss 1.1038, grad_norm 1.6196
+  train шаг 77/112: loss 1.1265, grad_norm 1.5063
+Traceback (most recent call last):
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 214, in main
+    grad_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), tcfg["max_grad_norm"], error_if_nonfinite=True)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 41, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 230, in clip_grad_norm_
+    total_norm = _get_total_norm(grads, norm_type, error_if_nonfinite, foreach)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 41, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 110, in _get_total_norm
+    raise RuntimeError(
+    ...<4 lines>...
+    )
+RuntimeError: The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 297, in <module>
+    main()
+    ~~~~^^
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 218, in main
+    raise RuntimeError(f"Шаг {step + 1}: нечисловые градиенты в {bad[:10]}") from error
+RuntimeError: Шаг 78: нечисловые градиенты в ['base_model.model.model.layers.0.self_attn.q_proj.lora_A.default.weight', 'base_model.model.model.layers.0.self_attn.q_proj.lora_B.default.weight', 'base_model.model.model.layers.0.self_attn.k_proj.lora_A.default.weight', 'base_model.model.model.layers.0.self_attn.k_proj.lora_B.default.weight', 'base_model.model.model.layers.0.self_attn.v_proj.lora_A.default.weight', 'base_model.model.model.layers.0.self_attn.v_proj.lora_B.default.weight', 'base_model.model.model.layers.0.self_attn.o_proj.lora_A.default.weight', 'base_model.model.model.layers.0.self_attn.o_proj.lora_B.default.weight', 'base_model.model.model.layers.0.mlp.gate_proj.lora_A.default.weight', 'base_model.model.model.layers.0.mlp.gate_proj.lora_B.default.weight']
+ERROR: failed to reproduce 'train_all': failed to run: python -m src.train --variant all_layers, exited with 1

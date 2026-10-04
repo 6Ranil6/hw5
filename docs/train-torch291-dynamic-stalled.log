@@ -1,0 +1,29 @@
+'source_val.dvc' didn't change, skipping
+'source_train.dvc' didn't change, skipping
+Running stage 'train_all':
+> python -m src.train --variant all_layers
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<09:24,  1.82s/it]Loading weights:  70%|███████   | 219/311 [00:01<00:00, 157.66it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 133.16it/s]
+[all_layers] устройство mps, обучаемых 5,046,272 из 601,096,192 (0.840%); шагов 112; base val 1.814922
+  train шаг 1/112: loss 1.9507, grad_norm 2.3346
+  train шаг 2/112: loss 1.7622, grad_norm 2.1582
+  train шаг 3/112: loss 2.1960, grad_norm 2.1135
+  train шаг 4/112: loss 1.6054, grad_norm 1.7039
+  train шаг 5/112: loss 1.4428, grad_norm 1.2774
+  train шаг 6/112: loss 1.3220, grad_norm 1.1706
+  train шаг 7/112: loss 1.6761, grad_norm 1.1412
+  train шаг 8/112: loss 1.7127, grad_norm 1.1497
+  train шаг 9/112: loss 1.3116, grad_norm 1.2082
+  train шаг 10/112: loss 1.5126, grad_norm 1.1661
+  шаг 10/112: train 1.5126, val 1.507493
+  checkpoint saved: step 10
+  train шаг 11/112: loss 1.7510, grad_norm 1.2281
+  train шаг 12/112: loss 1.2548, grad_norm 0.8126
+  train шаг 13/112: loss 1.6416, grad_norm 1.0119
+  train шаг 14/112: loss 1.6055, grad_norm 1.2996
+  train шаг 15/112: loss 1.5237, grad_norm 1.0544
+  train шаг 16/112: loss 1.9188, grad_norm 1.1305
+  train шаг 17/112: loss 1.6625, grad_norm 1.0852
+  train шаг 18/112: loss 1.2201, grad_norm 1.0372
+  train шаг 19/112: loss 1.5517, grad_norm 1.1145
+/Users/r.khayaliev/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

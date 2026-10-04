@@ -1,0 +1,13 @@
+test_bucket_padding_preserves_every_token (tests.test_training.TrainingTests.test_bucket_padding_preserves_every_token) ... ok
+test_checkpoint_restores_optimizer_and_rng (tests.test_training.TrainingTests.test_checkpoint_restores_optimizer_and_rng) ... ok
+test_empty_validation_is_rejected (tests.test_training.TrainingTests.test_empty_validation_is_rejected) ... ok
+test_evaluation_weights_shifted_answer_tokens (tests.test_training.TrainingTests.test_evaluation_weights_shifted_answer_tokens) ... ok
+test_left_padding_never_contributes_to_loss (tests.test_training.TrainingTests.test_left_padding_never_contributes_to_loss) ... ok
+test_lora_covers_only_requested_layers (tests.test_training.TrainingTests.test_lora_covers_only_requested_layers) ... ok
+test_partial_accumulation_group_is_kept (tests.test_training.TrainingTests.test_partial_accumulation_group_is_kept) ... ok
+test_seed_covers_python_numpy_torch (tests.test_training.TrainingTests.test_seed_covers_python_numpy_torch) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.038s
+
+OK

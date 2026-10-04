@@ -1,0 +1,27 @@
+'source_val.dvc' didn't change, skipping
+'source_train.dvc' didn't change, skipping
+Running stage 'train_all':
+> python -m src.train --variant all_layers
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 5744.03it/s]
+[all_layers] устройство mps, обучаемых 5,046,272 из 601,096,192 (0.840%); шагов 112; base val 1.814080
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 291, in <module>
+    main()
+    ~~~~^^
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 213, in main
+    torch.nn.utils.clip_grad_norm_(model.parameters(), tcfg["max_grad_norm"], error_if_nonfinite=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 41, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 230, in clip_grad_norm_
+    total_norm = _get_total_norm(grads, norm_type, error_if_nonfinite, foreach)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 41, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 110, in _get_total_norm
+    raise RuntimeError(
+    ...<4 lines>...
+    )
+RuntimeError: The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`
+ERROR: failed to reproduce 'train_all': failed to run: python -m src.train --variant all_layers, exited with 1

@@ -1,0 +1,5 @@
+outs:
+- path: data/tokenized/train.pt
+  md5: e2f7bdf2db7cd7792dba8fcb4d9f9977
+  size: 4145185
+  hash: md5

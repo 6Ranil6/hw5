@@ -1,0 +1,368 @@
+WARNING: Process '/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/bin/dvc repro' with (Pid 1302), in RWLock-file 'data/tokenized/val.pt' had been killed. Auto removed it from the lock file.
+'source_val.dvc' didn't change, skipping
+WARNING: Process '/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/bin/dvc repro' with (Pid 1302), in RWLock-file 'data/tokenized/train.pt' had been killed. Auto removed it from the lock file.
+'source_train.dvc' didn't change, skipping
+WARNING: Process '/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/bin/dvc repro' with (Pid 1302), in RWLock-file 'models/adapter_all_layers' had been killed. Auto removed it from the lock file.
+WARNING: Process '/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/bin/dvc repro' with (Pid 1302), in RWLock-file 'models/adapter_all_layers' had been killed. Auto removed it from the lock file.
+Running stage 'train_all':
+> python -m src.train --variant all_layers
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:02<12:51,  2.49s/it]Loading weights:  64%|██████▍   | 199/311 [00:02<00:01, 107.65it/s]Loading weights: 100%|██████████| 311/311 [00:03<00:00, 95.47it/s] 
+[all_layers] устройство mps, обучаемых 5,046,272 из 601,096,192 (0.840%); шагов 112; base val 1.814921
+  train шаг 1/112: loss 1.9507, grad_norm 2.3236
+  train шаг 2/112: loss 1.7622, grad_norm 2.1856
+  train шаг 3/112: loss 2.1959, grad_norm 2.1346
+  train шаг 4/112: loss 1.6055, grad_norm 1.7174
+  train шаг 5/112: loss 1.4420, grad_norm 1.2763
+  train шаг 6/112: loss 1.3223, grad_norm 1.1829
+  train шаг 7/112: loss 1.6762, grad_norm 1.1311
+  train шаг 8/112: loss 1.7123, grad_norm 1.1424
+  train шаг 9/112: loss 1.3114, grad_norm 1.2021
+  train шаг 10/112: loss 1.5117, grad_norm 1.1612
+  шаг 10/112: train 1.5117, val 1.507422
+  checkpoint saved: step 10
+  train шаг 11/112: loss 1.7521, grad_norm 1.2354
+  train шаг 12/112: loss 1.2548, grad_norm 0.7974
+  train шаг 13/112: loss 1.6407, grad_norm 1.0187
+  train шаг 14/112: loss 1.6051, grad_norm 1.2873
+  train шаг 15/112: loss 1.5228, grad_norm 1.0433
+  train шаг 16/112: loss 1.9192, grad_norm 1.1309
+  train шаг 17/112: loss 1.6628, grad_norm 1.0798
+  train шаг 18/112: loss 1.2214, grad_norm 1.0288
+  train шаг 19/112: loss 1.5510, grad_norm 1.1050
+  train шаг 20/112: loss 1.3176, grad_norm 1.4975
+  шаг 20/112: train 1.3176, val 1.376227
+  checkpoint saved: step 20
+  train шаг 21/112: loss 1.2680, grad_norm 1.0328
+  train шаг 22/112: loss 1.8267, grad_norm 1.2744
+  train шаг 23/112: loss 1.3028, grad_norm 1.2241
+  train шаг 24/112: loss 1.5313, grad_norm 1.2866
+  train шаг 25/112: loss 1.5025, grad_norm 1.3564
+  train шаг 26/112: loss 1.2373, grad_norm 1.0324
+  train шаг 27/112: loss 1.0297, grad_norm 1.1119
+  train шаг 28/112: loss 1.2406, grad_norm 1.1263
+  train шаг 29/112: loss 1.2493, grad_norm 1.1410
+  train шаг 30/112: loss 1.3702, grad_norm 1.1238
+  шаг 30/112: train 1.3702, val 1.310820
+  checkpoint saved: step 30
+  train шаг 31/112: loss 1.2590, grad_norm 1.1081
+  train шаг 32/112: loss 1.3158, grad_norm 1.0851
+  train шаг 33/112: loss 0.7908, grad_norm 0.8944
+  train шаг 34/112: loss 1.1504, grad_norm 1.0157
+  train шаг 35/112: loss 0.9029, grad_norm 1.0905
+  train шаг 36/112: loss 1.4707, grad_norm 1.3512
+  train шаг 37/112: loss 1.3425, grad_norm 1.2155
+  train шаг 38/112: loss 1.4907, grad_norm 1.3951
+  train шаг 39/112: loss 1.2625, grad_norm 1.1254
+  train шаг 40/112: loss 1.1670, grad_norm 1.1952
+  шаг 40/112: train 1.1670, val 1.269897
+  checkpoint saved: step 40
+  train шаг 41/112: loss 1.0511, grad_norm 1.0699
+  train шаг 42/112: loss 1.5041, grad_norm 1.6844
+  train шаг 43/112: loss 0.8088, grad_norm 0.9757
+  train шаг 44/112: loss 1.2527, grad_norm 1.2310
+  train шаг 45/112: loss 1.2135, grad_norm 1.2183
+  train шаг 46/112: loss 1.3563, grad_norm 1.5293
+  train шаг 47/112: loss 1.3182, grad_norm 1.6382
+  train шаг 48/112: loss 1.4370, grad_norm 1.3577
+  train шаг 49/112: loss 1.5287, grad_norm 1.6115
+  train шаг 50/112: loss 1.2217, grad_norm 1.4991
+  шаг 50/112: train 1.2217, val 1.245673
+  checkpoint saved: step 50
+  train шаг 51/112: loss 0.9457, grad_norm 1.3459
+  train шаг 52/112: loss 1.2682, grad_norm 1.2214
+  train шаг 53/112: loss 1.0466, grad_norm 1.1380
+  train шаг 54/112: loss 1.0272, grad_norm 1.3834
+  train шаг 55/112: loss 1.1302, grad_norm 1.3974
+  train шаг 56/112: loss 1.5214, grad_norm 1.4418
+  train шаг 57/112: loss 0.7979, grad_norm 1.2416
+  train шаг 58/112: loss 0.7875, grad_norm 0.9885
+  train шаг 59/112: loss 1.0776, grad_norm 1.3390
+  train шаг 60/112: loss 1.3441, grad_norm 1.3913
+  шаг 60/112: train 1.3441, val 1.218362
+  checkpoint saved: step 60
+  train шаг 61/112: loss 0.9916, grad_norm 1.1945
+  train шаг 62/112: loss 1.0372, grad_norm 1.4099
+  train шаг 63/112: loss 0.8229, grad_norm 1.2096
+  train шаг 64/112: loss 1.1316, grad_norm 1.3978
+  train шаг 65/112: loss 1.1882, grad_norm 1.4289
+  train шаг 66/112: loss 1.2395, grad_norm 1.6620
+  train шаг 67/112: loss 1.0935, grad_norm 1.3004
+  train шаг 68/112: loss 1.4836, grad_norm 1.6653
+  train шаг 69/112: loss 0.8933, grad_norm 1.1047
+  train шаг 70/112: loss 0.8516, grad_norm 1.0795
+  шаг 70/112: train 0.8516, val 1.210363
+  checkpoint saved: step 70
+  train шаг 71/112: loss 0.9878, grad_norm 1.5481
+  train шаг 72/112: loss 0.8847, grad_norm 1.4357
+  train шаг 73/112: loss 0.7079, grad_norm 1.1159
+  train шаг 74/112: loss 1.3406, grad_norm 1.4609
+  train шаг 75/112: loss 1.2368, grad_norm 1.5299
+  train шаг 76/112: loss 1.0962, grad_norm 1.6026
+  train шаг 77/112: loss 1.1193, grad_norm 1.5231
+  train шаг 78/112: loss 0.9962, grad_norm 1.3557
+  train шаг 79/112: loss 1.1030, grad_norm 1.3395
+  train шаг 80/112: loss 0.9256, grad_norm 1.3993
+  шаг 80/112: train 0.9256, val 1.198877
+  checkpoint saved: step 80
+  train шаг 81/112: loss 0.9924, grad_norm 1.3827
+  train шаг 82/112: loss 1.0890, grad_norm 1.5334
+  train шаг 83/112: loss 1.0302, grad_norm 1.2131
+  train шаг 84/112: loss 1.3014, grad_norm 1.5281
+  train шаг 85/112: loss 0.9584, grad_norm 1.6930
+  train шаг 86/112: loss 1.2869, grad_norm 1.4678
+  train шаг 87/112: loss 0.9005, grad_norm 1.2334
+  train шаг 88/112: loss 0.6681, grad_norm 0.9730
+  train шаг 89/112: loss 0.7488, grad_norm 1.0965
+  train шаг 90/112: loss 1.4280, grad_norm 1.6574
+  шаг 90/112: train 1.4280, val 1.192464
+  checkpoint saved: step 90
+  train шаг 91/112: loss 1.1073, grad_norm 1.5899
+  train шаг 92/112: loss 0.8836, grad_norm 1.1374
+  train шаг 93/112: loss 0.8125, grad_norm 1.3130
+  train шаг 94/112: loss 0.9043, grad_norm 1.3743
+  train шаг 95/112: loss 0.9273, grad_norm 1.4207
+  train шаг 96/112: loss 0.8591, grad_norm 1.1595
+  train шаг 97/112: loss 0.6845, grad_norm 1.1491
+  train шаг 98/112: loss 1.4097, grad_norm 1.5054
+  train шаг 99/112: loss 1.3419, grad_norm 1.5635
+  train шаг 100/112: loss 1.0145, grad_norm 1.1830
+  шаг 100/112: train 1.0145, val 1.191039
+  checkpoint saved: step 100
+  train шаг 101/112: loss 0.9881, grad_norm 1.2345
+  train шаг 102/112: loss 1.0319, grad_norm 1.2293
+  train шаг 103/112: loss 1.0153, grad_norm 1.2466
+  train шаг 104/112: loss 1.3229, grad_norm 1.4227
+  train шаг 105/112: loss 1.0827, grad_norm 1.3440
+  train шаг 106/112: loss 0.6800, grad_norm 1.1082
+  train шаг 107/112: loss 1.2885, grad_norm 1.9291
+  train шаг 108/112: loss 1.0797, grad_norm 1.4132
+  train шаг 109/112: loss 1.0819, grad_norm 1.6200
+  train шаг 110/112: loss 0.8451, grad_norm 1.1837
+  шаг 110/112: train 0.8451, val 1.190739
+  checkpoint saved: step 110
+  train шаг 111/112: loss 1.2809, grad_norm 1.8016
+  train шаг 112/112: loss 1.0671, grad_norm 1.4350
+  шаг 112/112: train 1.0671, val 1.190735
+  checkpoint saved: step 112
+[all_layers] 112 шагов за 963 с; пик памяти 7993 МБ; адаптер 30.21 МБ -> models/adapter_all_layers
+Generating lock file 'dvc.lock'
+Updating lock file 'dvc.lock'
+
+Running stage 'train_freeze':
+> python -m src.train --variant freeze14
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:57,  1.75it/s]Loading weights:  68%|██████▊   | 213/311 [00:00<00:00, 418.82it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 378.48it/s]
+[freeze14] устройство mps, обучаемых 2,523,136 из 598,573,056 (0.422%); шагов 112; base val 1.814921
+  train шаг 1/112: loss 1.9507, grad_norm 1.2095
+  train шаг 2/112: loss 1.7622, grad_norm 1.2833
+  train шаг 3/112: loss 2.2182, grad_norm 1.3129
+  train шаг 4/112: loss 1.6770, grad_norm 1.1775
+  train шаг 5/112: loss 1.5348, grad_norm 1.0833
+  train шаг 6/112: loss 1.3901, grad_norm 0.9288
+  train шаг 7/112: loss 1.7509, grad_norm 0.9501
+  train шаг 8/112: loss 1.7570, grad_norm 0.7818
+  train шаг 9/112: loss 1.3440, grad_norm 0.7443
+  train шаг 10/112: loss 1.5427, grad_norm 0.8535
+  шаг 10/112: train 1.5427, val 1.572107
+  checkpoint saved: step 10
+  train шаг 11/112: loss 1.8035, grad_norm 0.9326
+  train шаг 12/112: loss 1.3327, grad_norm 0.6930
+  train шаг 13/112: loss 1.7256, grad_norm 0.8902
+  train шаг 14/112: loss 1.7113, grad_norm 0.9970
+  train шаг 15/112: loss 1.6388, grad_norm 0.8232
+  train шаг 16/112: loss 2.0315, grad_norm 0.9206
+  train шаг 17/112: loss 1.7504, grad_norm 0.8084
+  train шаг 18/112: loss 1.3414, grad_norm 0.8829
+  train шаг 19/112: loss 1.6652, grad_norm 0.8440
+  train шаг 20/112: loss 1.4285, grad_norm 0.7753
+  шаг 20/112: train 1.4285, val 1.476675
+  checkpoint saved: step 20
+  train шаг 21/112: loss 1.4088, grad_norm 0.7582
+  train шаг 22/112: loss 1.9655, grad_norm 0.8550
+  train шаг 23/112: loss 1.4162, grad_norm 0.8194
+  train шаг 24/112: loss 1.6266, grad_norm 0.8644
+  train шаг 25/112: loss 1.6689, grad_norm 0.9697
+  train шаг 26/112: loss 1.3783, grad_norm 0.7494
+  train шаг 27/112: loss 1.1800, grad_norm 0.8345
+  train шаг 28/112: loss 1.3563, grad_norm 0.8230
+  train шаг 29/112: loss 1.3626, grad_norm 0.8813
+  train шаг 30/112: loss 1.5038, grad_norm 0.8088
+  шаг 30/112: train 1.5038, val 1.408942
+  checkpoint saved: step 30
+  train шаг 31/112: loss 1.3953, grad_norm 0.8368
+  train шаг 32/112: loss 1.4416, grad_norm 0.8213
+  train шаг 33/112: loss 0.9267, grad_norm 0.7029
+  train шаг 34/112: loss 1.3092, grad_norm 0.7565
+  train шаг 35/112: loss 1.0355, grad_norm 0.8220
+  train шаг 36/112: loss 1.5947, grad_norm 1.0008
+  train шаг 37/112: loss 1.4848, grad_norm 0.9563
+  train шаг 38/112: loss 1.7000, grad_norm 1.1436
+  train шаг 39/112: loss 1.4342, grad_norm 0.9147
+  train шаг 40/112: loss 1.2879, grad_norm 0.8819
+  шаг 40/112: train 1.2879, val 1.357327
+  checkpoint saved: step 40
+  train шаг 41/112: loss 1.2450, grad_norm 0.8754
+  train шаг 42/112: loss 1.6697, grad_norm 1.2842
+  train шаг 43/112: loss 0.9059, grad_norm 0.7571
+  train шаг 44/112: loss 1.3358, grad_norm 0.9033
+  train шаг 45/112: loss 1.3544, grad_norm 0.9902
+  train шаг 46/112: loss 1.5171, grad_norm 1.2741
+  train шаг 47/112: loss 1.4298, grad_norm 1.0880
+  train шаг 48/112: loss 1.6269, grad_norm 1.0944
+  train шаг 49/112: loss 1.7614, grad_norm 1.4141
+  train шаг 50/112: loss 1.3662, grad_norm 1.2017
+  шаг 50/112: train 1.3662, val 1.332784
+  checkpoint saved: step 50
+  train шаг 51/112: loss 1.1251, grad_norm 0.9823
+  train шаг 52/112: loss 1.3865, grad_norm 0.9630
+  train шаг 53/112: loss 1.1840, grad_norm 0.9758
+  train шаг 54/112: loss 1.1842, grad_norm 1.0942
+  train шаг 55/112: loss 1.2815, grad_norm 1.2266
+  train шаг 56/112: loss 1.6174, grad_norm 1.0954
+  train шаг 57/112: loss 0.9378, grad_norm 0.9524
+  train шаг 58/112: loss 0.9046, grad_norm 0.8919
+  train шаг 59/112: loss 1.2746, grad_norm 1.2029
+  train шаг 60/112: loss 1.5205, grad_norm 1.2008
+  шаг 60/112: train 1.5205, val 1.306275
+  checkpoint saved: step 60
+  train шаг 61/112: loss 1.1557, grad_norm 0.9270
+  train шаг 62/112: loss 1.2702, grad_norm 1.2157
+  train шаг 63/112: loss 0.9622, grad_norm 0.9920
+  train шаг 64/112: loss 1.3283, grad_norm 1.2168
+  train шаг 65/112: loss 1.3431, grad_norm 1.1573
+  train шаг 66/112: loss 1.4081, grad_norm 1.3275
+  train шаг 67/112: loss 1.2702, grad_norm 1.1558
+  train шаг 68/112: loss 1.6536, grad_norm 1.3284
+  train шаг 69/112: loss 1.0042, grad_norm 0.9409
+  train шаг 70/112: loss 0.9931, grad_norm 0.9601
+  шаг 70/112: train 0.9931, val 1.293610
+  checkpoint saved: step 70
+  train шаг 71/112: loss 1.1117, grad_norm 1.2260
+  train шаг 72/112: loss 0.9944, grad_norm 1.1261
+  train шаг 73/112: loss 0.8561, grad_norm 0.9225
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 325, in <module>
+    main()
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 228, in main
+    (loss * (count / n_supervised)).backward()
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.12/site-packages/torch/_tensor.py", line 625, in backward
+    torch.autograd.backward(
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: MPS backend out of memory (MPS allocated: 6.69 GiB, other allocations: 1.19 GiB, max allowed: 8.29 GiB). Tried to allocate 445.12 MiB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+ERROR: failed to reproduce 'train_freeze': failed to run: python -m src.train --variant freeze14, exited with 1
+'source_val.dvc' didn't change, skipping
+'source_train.dvc' didn't change, skipping
+Stage 'train_all' didn't change, skipping
+Running stage 'train_freeze':
+> python -m src.train --variant freeze14
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:56,  1.76it/s]Loading weights:  72%|███████▏  | 225/311 [00:00<00:00, 444.51it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 372.16it/s]
+[freeze14] restored checkpoint at step 70/112
+[freeze14] устройство mps, обучаемых 2,523,136 из 598,573,056 (0.422%); шагов 112; base val 1.814921
+  train шаг 71/112: loss 1.1117, grad_norm 1.2260
+  train шаг 72/112: loss 0.9944, grad_norm 1.1261
+  train шаг 73/112: loss 0.8561, grad_norm 0.9225
+  train шаг 74/112: loss 1.4588, grad_norm 1.1286
+  train шаг 75/112: loss 1.3795, grad_norm 1.2279
+  train шаг 76/112: loss 1.2647, grad_norm 1.0814
+  train шаг 77/112: loss 1.3188, grad_norm 1.2156
+  train шаг 78/112: loss 1.1395, grad_norm 1.1349
+  train шаг 79/112: loss 1.2972, grad_norm 1.1858
+  train шаг 80/112: loss 1.0942, grad_norm 1.2767
+  шаг 80/112: train 1.0942, val 1.284803
+  checkpoint saved: step 80
+  train шаг 81/112: loss 1.0980, grad_norm 1.1260
+  train шаг 82/112: loss 1.2103, grad_norm 1.2341
+  train шаг 83/112: loss 1.2027, grad_norm 1.0551
+  train шаг 84/112: loss 1.3763, grad_norm 1.1875
+  train шаг 85/112: loss 1.1235, grad_norm 1.1924
+  train шаг 86/112: loss 1.4100, grad_norm 1.1950
+  train шаг 87/112: loss 1.0573, grad_norm 1.0537
+  train шаг 88/112: loss 0.8361, grad_norm 0.8870
+  train шаг 89/112: loss 0.9536, grad_norm 1.0492
+  train шаг 90/112: loss 1.5785, grad_norm 1.3704
+  шаг 90/112: train 1.5785, val 1.279848
+  checkpoint saved: step 90
+  train шаг 91/112: loss 1.2805, grad_norm 1.3846
+  train шаг 92/112: loss 1.0622, grad_norm 1.0238
+  train шаг 93/112: loss 0.9781, grad_norm 1.1919
+  train шаг 94/112: loss 1.0704, grad_norm 1.3348
+  train шаг 95/112: loss 1.0730, grad_norm 1.2385
+  train шаг 96/112: loss 0.9905, grad_norm 0.9719
+  train шаг 97/112: loss 0.8359, grad_norm 0.9865
+  train шаг 98/112: loss 1.5110, grad_norm 1.1401
+  train шаг 99/112: loss 1.5174, grad_norm 1.3193
+  train шаг 100/112: loss 1.1562, grad_norm 1.0390
+  шаг 100/112: train 1.1562, val 1.277667
+  checkpoint saved: step 100
+  train шаг 101/112: loss 1.1452, grad_norm 1.0492
+  train шаг 102/112: loss 1.2049, grad_norm 1.0571
+  train шаг 103/112: loss 1.1586, grad_norm 1.0733
+  train шаг 104/112: loss 1.4775, grad_norm 1.1639
+  train шаг 105/112: loss 1.2703, grad_norm 1.1507
+  train шаг 106/112: loss 0.8345, grad_norm 0.9735
+  train шаг 107/112: loss 1.4984, grad_norm 1.5763
+  train шаг 108/112: loss 1.2869, grad_norm 1.2328
+  train шаг 109/112: loss 1.2282, grad_norm 1.2571
+  train шаг 110/112: loss 1.0209, grad_norm 1.0775
+  шаг 110/112: train 1.0209, val 1.277248
+  checkpoint saved: step 110
+  train шаг 111/112: loss 1.4443, grad_norm 1.5510
+  train шаг 112/112: loss 1.2108, grad_norm 1.1765
+  шаг 112/112: train 1.2108, val 1.277245
+  checkpoint saved: step 112
+[freeze14] 112 шагов за 771 с; пик памяти 7923 МБ; адаптер 20.56 МБ -> models/adapter_freeze14
+Updating lock file 'dvc.lock'
+
+Running stage 'compare':
+> python -m src.compare --variant all_layers
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:53,  1.78it/s]Loading weights:  74%|███████▍  | 230/311 [00:00<00:00, 464.54it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 397.03it/s]
+-> metrics/compare_all_layers.json, docs/compare.md
+  база:    'В центре стены остался светлый прямоугольник, где пустая рамка с подпи'
+  адаптер: 'В центре стены остался светлый прямоугольник.\n\n— Ты не заметил, что уш'
+  база:    'В лесу, где тени скользили по тропинке, один из двух взрослых знакомых'
+  адаптер: 'В книге листок с тропинкой. Двое взрослых знакомых каждый вечер встреч'
+  база:    'В деревянном столе лежал наборные буквы и лист с неровным отпечатком. '
+  адаптер: 'На столе лежат наборные буквы и лист с неровным отпечатком.\n\n— Ты не з'
+  база:    'В саду, где жила женщина, за калиткой всё заросло, ключ в нём был труд'
+  адаптер: 'В заслоне сада стул, который не пришёл к нём, стал местом отдыха.'
+  база:    'В пустом автобусе отражались огни улицы, на сиденье лежала рабочая пер'
+  адаптер: 'В автобусе огни учатся уменьшать расстояние между ними.'
+ERROR: failed to reproduce 'compare': binary file '/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/metrics/compare_all_layers.json' cannot be used as metrics.
+'source_val.dvc' didn't change, skipping
+'source_train.dvc' didn't change, skipping
+Stage 'train_all' didn't change, skipping
+Stage 'train_freeze' didn't change, skipping
+Running stage 'compare':
+> python -m src.compare --variant all_layers
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:17,  2.25it/s]Loading weights:  96%|█████████▌| 298/311 [00:00<00:00, 724.27it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 548.47it/s]
+-> metrics/compare_all_layers.json, docs/compare.md
+  база:    'В центре стены остался светлый прямоугольник, где пустая рамка с подпи'
+  адаптер: 'В центре стены остался светлый прямоугольник.\n\n— Ты не заметил, что уш'
+  база:    'В лесу, где тени скользили по тропинке, один из двух взрослых знакомых'
+  адаптер: 'В книге листок с тропинкой. Двое взрослых знакомых каждый вечер встреч'
+  база:    'В деревянном столе лежал наборные буквы и лист с неровным отпечатком. '
+  адаптер: 'На столе лежат наборные буквы и лист с неровным отпечатком.\n\n— Ты не з'
+  база:    'В саду, где жила женщина, за калиткой всё заросло, ключ в нём был труд'
+  адаптер: 'В заслоне сада стул, который не пришёл к нём, стал местом отдыха.'
+  база:    'В пустом автобусе отражались огни улицы, на сиденье лежала рабочая пер'
+  адаптер: 'В автобусе огни учатся уменьшать расстояние между ними.'
+Updating lock file 'dvc.lock'
+
+Running stage 'plot':
+> python -m src.plot
+-> docs/curves.png
+Updating lock file 'dvc.lock'
+
+To track the changes with git, run:
+
+	git add dvc.lock
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+Use `dvc push` to send your updates to remote storage.

@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 5541.89it/s]
+[all_layers] устройство mps, обучаемых 5,046,272 из 601,096,192 (0.840%); шагов 10; base val 1.814080
+  train шаг 1/10: loss 1.9507, grad_norm 2.4054
+  train шаг 2/10: loss 1.7603, grad_norm 2.1538
+  train шаг 3/10: loss 2.1632, grad_norm 2.0093
+  train шаг 4/10: loss 1.5622, grad_norm 1.5045
+  train шаг 5/10: loss 1.4219, grad_norm 1.1321
+  train шаг 6/10: loss 1.3155, grad_norm 1.1278
+  train шаг 7/10: loss 1.6821, grad_norm 1.1287
+  train шаг 8/10: loss 1.7228, grad_norm 1.1206
+  train шаг 9/10: loss 1.3224, grad_norm 1.1044
+  train шаг 10/10: loss 1.5348, grad_norm 1.1858
+  шаг 10/10: train 1.5348, val 1.556250
+[all_layers] 10 шагов за 117 с; пик памяти 6335 МБ; адаптер 30.21 МБ -> submission/diagnostic/adapter_all_layers

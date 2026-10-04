@@ -1,0 +1,130 @@
+'source_val.dvc' didn't change, skipping
+'source_train.dvc' didn't change, skipping
+Running stage 'train_all':
+> python -m src.train --variant all_layers
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:41,  1.92it/s]Loading weights:  72%|███████▏  | 224/311 [00:00<00:00, 474.19it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 417.16it/s]
+[all_layers] устройство mps, обучаемых 5,046,272 из 601,096,192 (0.840%); шагов 112; base val 1.814921
+  train шаг 1/112: loss 1.9507, grad_norm 2.3081
+  train шаг 2/112: loss 1.7622, grad_norm 2.1434
+  train шаг 3/112: loss 2.1957, grad_norm 2.1319
+  train шаг 4/112: loss 1.6054, grad_norm 1.7132
+  train шаг 5/112: loss 1.4419, grad_norm 1.2242
+  train шаг 6/112: loss 1.3219, grad_norm 1.1658
+  train шаг 7/112: loss 1.6760, grad_norm 1.1416
+  train шаг 8/112: loss 1.7123, grad_norm 1.1544
+  train шаг 9/112: loss 1.3121, grad_norm 1.2065
+  train шаг 10/112: loss 1.5116, grad_norm 1.1579
+  шаг 10/112: train 1.5116, val 1.507605
+  train шаг 11/112: loss 1.7531, grad_norm 1.2441
+  train шаг 12/112: loss 1.2547, grad_norm 0.8119
+  train шаг 13/112: loss 1.6418, grad_norm 1.0221
+  train шаг 14/112: loss 1.6053, grad_norm 1.2901
+  train шаг 15/112: loss 1.5237, grad_norm 1.0512
+  train шаг 16/112: loss 1.9180, grad_norm 1.1251
+  train шаг 17/112: loss 1.6615, grad_norm 1.0908
+  train шаг 18/112: loss 1.2215, grad_norm 1.0386
+  train шаг 19/112: loss 1.5521, grad_norm 1.1071
+  train шаг 20/112: loss 1.3175, grad_norm 1.4554
+  шаг 20/112: train 1.3175, val 1.376026
+  train шаг 21/112: loss 1.2691, grad_norm 1.0232
+  train шаг 22/112: loss 1.8257, grad_norm 1.2656
+  train шаг 23/112: loss 1.3017, grad_norm 1.2177
+  train шаг 24/112: loss 1.5325, grad_norm 1.2990
+  train шаг 25/112: loss 1.5020, grad_norm 1.3677
+  train шаг 26/112: loss 1.2359, grad_norm 1.0278
+  train шаг 27/112: loss 1.0290, grad_norm 1.1033
+  train шаг 28/112: loss 1.2425, grad_norm 1.1299
+  train шаг 29/112: loss 1.2489, grad_norm 1.1491
+  train шаг 30/112: loss 1.3711, grad_norm 1.1343
+  шаг 30/112: train 1.3711, val 1.310397
+  train шаг 31/112: loss 1.2588, grad_norm 1.1117
+  train шаг 32/112: loss 1.3152, grad_norm 1.0949
+  train шаг 33/112: loss 0.7922, grad_norm 0.8975
+  train шаг 34/112: loss 1.1510, grad_norm 1.0219
+  train шаг 35/112: loss 0.9039, grad_norm 1.0831
+  train шаг 36/112: loss 1.4720, grad_norm 1.3572
+  train шаг 37/112: loss 1.3414, grad_norm 1.2142
+  train шаг 38/112: loss 1.4892, grad_norm 1.3943
+  train шаг 39/112: loss 1.2626, grad_norm 1.1257
+  train шаг 40/112: loss 1.1662, grad_norm 1.1834
+  шаг 40/112: train 1.1662, val 1.269136
+  train шаг 41/112: loss 1.0518, grad_norm 1.0669
+  train шаг 42/112: loss 1.5072, grad_norm 1.6833
+  train шаг 43/112: loss 0.8081, grad_norm 0.9747
+  train шаг 44/112: loss 1.2528, grad_norm 1.2412
+  train шаг 45/112: loss 1.2150, grad_norm 1.2228
+  train шаг 46/112: loss 1.3544, grad_norm 1.5219
+  train шаг 47/112: loss 1.3199, grad_norm 1.5123
+  train шаг 48/112: loss 1.4377, grad_norm 1.3457
+  train шаг 49/112: loss 1.5288, grad_norm 1.6207
+  train шаг 50/112: loss 1.2234, grad_norm 1.4882
+  шаг 50/112: train 1.2234, val 1.244809
+  train шаг 51/112: loss 0.9473, grad_norm 1.3292
+  train шаг 52/112: loss 1.2683, grad_norm 1.2184
+  train шаг 53/112: loss 1.0469, grad_norm 1.1582
+  train шаг 54/112: loss 1.0261, grad_norm 1.3840
+  train шаг 55/112: loss 1.1292, grad_norm 1.3944
+  train шаг 56/112: loss 1.5207, grad_norm 1.4359
+  train шаг 57/112: loss 0.7991, grad_norm 1.2520
+  train шаг 58/112: loss 0.7876, grad_norm 0.9914
+  train шаг 59/112: loss 1.0760, grad_norm 1.3449
+  train шаг 60/112: loss 1.3436, grad_norm 1.3857
+  шаг 60/112: train 1.3436, val 1.217694
+  train шаг 61/112: loss 0.9913, grad_norm 1.1977
+  train шаг 62/112: loss 1.0351, grad_norm 1.4093
+  train шаг 63/112: loss 0.8264, grad_norm 1.2293
+  train шаг 64/112: loss 1.1344, grad_norm 1.4126
+  train шаг 65/112: loss 1.1894, grad_norm 1.4300
+  train шаг 66/112: loss 1.2387, grad_norm 1.6576
+  train шаг 67/112: loss 1.0909, grad_norm 1.2977
+  train шаг 68/112: loss 1.4875, grad_norm 1.6684
+  train шаг 69/112: loss 0.8954, grad_norm 1.4394
+  train шаг 70/112: loss 0.8519, grad_norm 1.0819
+  шаг 70/112: train 0.8519, val 1.209811
+  train шаг 71/112: loss 0.9839, grad_norm 1.5369
+  train шаг 72/112: loss 0.8834, grad_norm 1.4300
+  train шаг 73/112: loss 0.7095, grad_norm 1.1157
+  train шаг 74/112: loss 1.3421, grad_norm 1.4671
+  train шаг 75/112: loss 1.2384, grad_norm 1.5421
+  train шаг 76/112: loss 1.0970, grad_norm 1.6202
+  train шаг 77/112: loss 1.1215, grad_norm 1.5251
+  train шаг 78/112: loss 0.9975, grad_norm 1.3609
+  train шаг 79/112: loss 1.1041, grad_norm 1.3395
+  train шаг 80/112: loss 0.9274, grad_norm 1.4065
+  шаг 80/112: train 0.9274, val 1.198633
+  train шаг 81/112: loss 0.9928, grad_norm 1.3855
+  train шаг 82/112: loss 1.0880, grad_norm 1.5359
+  train шаг 83/112: loss 1.0314, grad_norm 1.2152
+  train шаг 84/112: loss 1.3028, grad_norm 1.5493
+  train шаг 85/112: loss 0.9628, grad_norm 1.6832
+  train шаг 86/112: loss 1.2927, grad_norm 1.4823
+  train шаг 87/112: loss 0.9016, grad_norm 1.2423
+  train шаг 88/112: loss 0.6672, grad_norm 0.9720
+  train шаг 89/112: loss 0.7496, grad_norm 1.1027
+Traceback (most recent call last):
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 214, in main
+    grad_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), tcfg["max_grad_norm"], error_if_nonfinite=True)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 41, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 230, in clip_grad_norm_
+    total_norm = _get_total_norm(grads, norm_type, error_if_nonfinite, foreach)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 41, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/.venv/lib/python3.14/site-packages/torch/nn/utils/clip_grad.py", line 110, in _get_total_norm
+    raise RuntimeError(
+    ...<4 lines>...
+    )
+RuntimeError: The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 297, in <module>
+    main()
+    ~~~~^^
+  File "/Users/r.khayaliev/Desktop/BMSTU/MLOps/hw5/hw5-broken/src/train.py", line 218, in main
+    raise RuntimeError(f"Шаг {step + 1}: нечисловые градиенты в {bad[:10]}") from error
+RuntimeError: Шаг 90: нечисловые градиенты в ['base_model.model.model.layers.0.self_attn.q_proj.lora_A.default.weight', 'base_model.model.model.layers.0.self_attn.q_proj.lora_B.default.weight', 'base_model.model.model.layers.0.self_attn.k_proj.lora_A.default.weight', 'base_model.model.model.layers.0.self_attn.k_proj.lora_B.default.weight', 'base_model.model.model.layers.0.self_attn.v_proj.lora_A.default.weight', 'base_model.model.model.layers.0.self_attn.v_proj.lora_B.default.weight', 'base_model.model.model.layers.0.self_attn.o_proj.lora_A.default.weight', 'base_model.model.model.layers.0.self_attn.o_proj.lora_B.default.weight', 'base_model.model.model.layers.0.mlp.gate_proj.lora_A.default.weight', 'base_model.model.model.layers.0.mlp.gate_proj.lora_B.default.weight']
+ERROR: failed to reproduce 'train_all': failed to run: python -m src.train --variant all_layers, exited with 1

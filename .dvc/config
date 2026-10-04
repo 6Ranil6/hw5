@@ -1,0 +1,7 @@
+[core]
+    autostage = false
+    analytics = false
+    site_cache_dir = .dvc/tmp/site-cache
+    remote = local
+['remote "local"']
+    url = ../dvc_remote
